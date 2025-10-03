@@ -32,7 +32,7 @@ int main(void)
 
     if (total_sum % 10 != 0)
     {
-        printf("INVALID\n");
+        printf("invalid\n");
         return 0;
     }
 
@@ -60,19 +60,19 @@ int main(void)
 
     if (count == 15 && (first_two == 34 || first_two == 37))
     {
-        printf("AMEX\n");
+        printf("amex\n");
     }
     else if (count == 16 && (first_two >= 51 && first_two <= 55))
     {
-        printf("MASTERCARD\n");
+        printf("mastercard\n");
     }
     else if ((count == 13 || count == 16) && first_one == 4)
     {
-        printf("VISA\n");
+        printf("visa\n");
     }
     else
     {
-        printf("INVALID\n");
+        printf("invalid\n");
     }
 
     return 0;
